@@ -1,0 +1,34 @@
+{
+	"data": {
+		"jcr:primaryType": "nt:unstructured",
+		"jcr:createdBy": "admin",
+		"jcr:lastModifiedBy": "admin",
+		"number": "11111111111",
+		"designation": "Lead AEM Developer",
+		"jcr:created": "Fri Mar 29 2024 11:58:56 GMT+0530",
+		"age": "29",
+		"name": "Nimith",
+		"company": "Test Company",
+		"jcr:lastModified": "Sat Mar 30 2024 01:48:12 GMT+0530",
+		"sling:resourceType": "practice/components/employeedetails",
+		"multifieldList": {
+			"jcr:primaryType": "nt:unstructured",
+			"item0": {
+				"jcr:primaryType": "nt:unstructured",
+				"skill": "AEM"
+			},
+			"item1": {
+				"jcr:primaryType": "nt:unstructured",
+				"skill": "JAVA"
+			},
+			"item2": {
+				"jcr:primaryType": "nt:unstructured",
+				"skill": "HTML"
+			},
+			"item3": {
+				"jcr:primaryType": "nt:unstructured",
+				"skill": "CSS"
+			}
+		}
+	}
+}

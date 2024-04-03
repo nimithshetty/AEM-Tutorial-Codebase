@@ -1,0 +1,16 @@
+<div data-emptytext="First Component" class="cq-placeholder"></div>
+<sly data-sly-test="${properties.title}">
+<div>
+<h2>Title property goes here:</h2>
+<p>${properties.title}</p>
+<h1 class ="first-component-text">Title of the page is: ${currentPage.title}</h1>
+<p data-sly-text="${currentPage.title}">This text will be replaced.</p>
+<p data-sly-attribute.title=${currentPage.title}>Attributes are set for this element</p>
+</div>
+</sly>
+<sly
+        data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+>
+<sly
+          data-sly-call="${clientlib.all @ categories='aem.tutorials'}"
+/>

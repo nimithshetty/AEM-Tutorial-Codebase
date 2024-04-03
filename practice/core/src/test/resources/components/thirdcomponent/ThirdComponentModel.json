@@ -1,0 +1,25 @@
+{
+"data" : {
+	"jcr:primaryType": "nt:unstructured",
+	"jcr:createdBy": "admin",
+	"jcr:lastModifiedBy": "admin",
+	"jcr:created": "Thu Mar 28 2024 14:18:20 GMT+0530",
+	"text": "Text example",
+	"title": "Title example",
+	"jcr:lastModified": "Thu Mar 28 2024 14:18:37 GMT+0530",
+	"sling:resourceType": "practice/components/thirdcomponent",
+	"multifieldList": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"eyebrow": "Eyebrow 1",
+			"header": "Header 1"
+		},
+		"item1": {
+			"jcr:primaryType": "nt:unstructured",
+			"eyebrow": "Eyebrow 2",
+			"header": "Header 2"
+		}
+	}
+}
+}

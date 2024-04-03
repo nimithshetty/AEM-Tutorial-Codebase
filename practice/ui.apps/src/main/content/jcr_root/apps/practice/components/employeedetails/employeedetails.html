@@ -1,0 +1,21 @@
+<div data-emptytext="Employee Details Component" class="cq-placeholder"></div>
+<sly data-sly-use.employeeDetails="com.adobe.aem.tutorial.core.models.EmployeeDetailsModel">
+<sly data-sly-test="${employeeDetails.name}">
+<div class = "employee-details-background">
+<p>Name of the employee: ${employeeDetails.name}</p>
+<p>Age of the employee: ${employeeDetails.age}</p>
+<p>Phone number of the employee: ${employeeDetails.number}</p>
+<p>Company of the employee: ${employeeDetails.company}</p>
+<p>Designation of the employee: ${employeeDetails.designation}</p>
+<sly data-sly-list.listMultifieldObj="${employeeDetails.multifieldList}">
+<p>Skill of the employee: ${listMultifieldObj.skill}</p>
+</sly>
+</sly>
+</div>
+</sly>
+<sly
+        data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+>
+<sly
+          data-sly-call="${clientlib.all @ categories='employee.details'}"
+/>

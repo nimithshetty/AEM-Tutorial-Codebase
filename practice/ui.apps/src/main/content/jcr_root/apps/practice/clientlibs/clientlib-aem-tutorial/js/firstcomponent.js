@@ -1,0 +1,1 @@
+alert("This is the js of my first component!")

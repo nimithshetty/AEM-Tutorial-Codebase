@@ -1,0 +1,14 @@
+{
+"data" : {
+	"jcr:primaryType": "nt:unstructured",
+	"jcr:createdBy": "admin",
+	"eyebrow": "Eyebrow example",
+	"header": "Header example",
+	"jcr:lastModifiedBy": "admin",
+	"jcr:created": "Mon Mar 25 2024 12:48:41 GMT+0530",
+	"text": "Text example",
+	"title": "Title example",
+	"jcr:lastModified": "Mon Mar 25 2024 13:17:58 GMT+0530",
+	"sling:resourceType": "practice/components/secondcomponent"
+}
+}

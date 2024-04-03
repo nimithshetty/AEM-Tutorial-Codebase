@@ -1,0 +1,11 @@
+<div data-emptytext="Third Component" class="cq-placeholder"></div>
+<sly data-sly-use.thirdComponentModel="com.adobe.aem.tutorial.core.models.ThirdComponentModel">
+<div>
+<p>Title: ${thirdComponentModel.title}</p>
+<p>Text: ${thirdComponentModel.text}</p>
+<sly data-sly-list.listMultifieldObj="${thirdComponentModel.multifieldList}">
+<p>Eyebrow: ${listMultifieldObj.eyebrow}</p>
+<p>Header: ${listMultifieldObj.header}</p>
+</sly>
+</div>
+</sly>

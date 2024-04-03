@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/practice/settings/wcm/templates/tutorial-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="practice/components/structure/page-tutorial">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="practice/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="practice/components/container"
+                layout="responsiveGrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>
